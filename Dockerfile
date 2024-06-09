@@ -13,7 +13,7 @@ RUN python3 setup.py install
 
 ARG PAGE_URL=example.com
 ENV PAGE_URL $PAGE_URL
-ENV PORT 80
+ENV PORT 8889
 ENV TANNER tanner.mushmush.org
 
 RUN clone --target "http://$PAGE_URL"
