@@ -15,5 +15,5 @@ services:
     networks:
      - snare_local
     ports:
-     - "80:80"
+     - "8889:8889"
     image: "mushorg/snare:latest"
